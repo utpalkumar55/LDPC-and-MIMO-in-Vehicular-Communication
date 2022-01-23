@@ -7,13 +7,13 @@ The above figure depicts the the structure of the DSRC PHY layer including LDPC 
 
 Associated files-->
 
-Experimental_Simulation.m -> Runs the simulation as a complete package
-System_Parameter.m -> Defines the simulation parameters
-System_Initialize.m -> Initializes the simulation objects and necessary variables
-LDPC_and_MIMOinDSRC -> Contains the simulations steps shown in the above figure
-Pilot_Generator.m -> Generates pilot symbols
-Ideal_Channel_Estimation.m -> Measures channel response for equalization purpose
-MMSE_Equalize.m -> Contains implementation for MMSE equalization
+* Experimental_Simulation.m -> Runs the simulation as a complete package
+* System_Parameter.m -> Defines the simulation parameters
+* System_Initialize.m -> Initializes the simulation objects and necessary variables
+* LDPC_and_MIMOinDSRC -> Contains the simulations steps shown in the above figure
+* Pilot_Generator.m -> Generates pilot symbols
+* Ideal_Channel_Estimation.m -> Measures channel response for equalization purpose
+* MMSE_Equalize.m -> Contains implementation for MMSE equalization
 
 N.B.: If you take help from this project, please cite the following papers:
   * U. K. Dey, R. Akl, and R. Chataut, “Throughput Improvement in Vehicular Communication by Using Low Density Parity Check (LDPC),” in The IEEE 12th Annual Computing and Communication Workshop and Conference (CCWC), 2022.
